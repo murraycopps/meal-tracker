@@ -3,7 +3,7 @@ import type { Day } from "./types";
 // create a list of days
 const days: Day[] = [
     {
-        date: "2023-01-01",
+        date: "01-01-2023",
         distance: 10,
         intensity: 4,
         feel: 8,
@@ -27,7 +27,7 @@ const days: Day[] = [
         ]
     },
     {
-        date: "2023-01-02",
+        date: "01-02-2023",
         distance: 5,
         intensity: 9,
         feel: 6,
@@ -51,7 +51,7 @@ const days: Day[] = [
         ]
     },
     {
-        date: "2023-01-03",
+        date: "01-03-2023",
         distance: 15,
         intensity: 6,
         feel: 7,

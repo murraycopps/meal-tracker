@@ -5,8 +5,7 @@
     export let meal: Meal
 </script>
 
-<li>
+<li class="grid grid-cols-2 gap-4">
     <h3>{meal.name}</h3>
-    <p>{meal.calories} calories</p>
     <p>{meal.notes}</p>
 </li>
