@@ -3,9 +3,8 @@ type Day = {
     distance: number;
     intensity: number;
     feel: number;
-
     notes: string;
-    meals: Meal[];
+    meals?: Meal[];
 }
 
 type Meal = {
